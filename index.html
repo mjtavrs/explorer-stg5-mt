@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Descubra sua sorte</title>
+
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Dancing+Script&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="screen1">
+        <div class="screenWrapper">
+            <h1>Qual é a sua sorte de hoje?</h1>
+            <p>Abra o biscoito e descubra!</p>
+            <img src="assets/luckyCookie.png" alt="Imagem de um biscoito da sorte ainda fechado" id="luckyBiscuit">
+        </div>
+    </div>
+    <div class="screen2 hide">
+        <h2>Aqui está a sua sorte de hoje:</h2>
+        <div class="luckyMessage">
+            <h3></h3>
+        </div>
+        <img src="assets/openedLuckyCookie.png" alt="Imagem de um biscoito da sorte ainda fechado">
+        <button id="openNewBiscuit">Abrir outro biscoito</button>
+    </div>
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
